@@ -1,5 +1,5 @@
 # Exercício 1
-- 1. Criar uma conta gratuita no Azure (oferece uso de R$ 750 em créditos
+## 1. Criar uma conta gratuita no Azure (oferece uso de R$ 750 em créditos
 
 - 2. Criar um cluster de Kubernetes Gerenciado
 
@@ -9,7 +9,7 @@
 https://github.com/microservices-demo/microservices-demo/blob/master/internal-docs/design.md
 https://github.com/microservices-demo/microservices-demo/blob/master/deploy/kubernetes/complete-demo.yaml
 
-* Após a implementação, você deve alterar o serviço (service de frontend, conforme descrição para tipo load balancer, e expor o mesmo para internet.)
+Após a implementação, você deve alterar o serviço (service de frontend, conforme descrição para tipo load balancer, e expor o mesmo para internet.)
 
 apiVersion: v1
 kind: Service

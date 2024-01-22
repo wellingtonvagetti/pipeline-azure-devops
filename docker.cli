@@ -1,0 +1,5 @@
+az provider register --namespace Microsoft.OperationsManagement
+az provider register --namespace Microsoft.OperationalInsights
+az aks get-credentials --resource-group "RG-AKSLABTEST" --name cluster-aks
+kubectl apply -f complete-demo.yaml
+kubectl get service -n sock-shop
